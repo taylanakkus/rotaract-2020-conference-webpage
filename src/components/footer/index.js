@@ -47,9 +47,10 @@ class Footer extends Component {
                                                 <Link to='/iletisim'>İletişim</Link>
                                             </li>
                                             <li>
-                                                <Link to="/kayit">Kayıt</Link>
+                                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSf2VyA_f9QuGhFVCugh58_jxszZ0-_3by03FWsxDwwZA929VA/viewform" rel="external" target="_blank">Kayıt</a>
+
                                             </li>
-                                            <li><a href="#">Contact</a></li>
+
                                         </ul>
                                     </div>
                                 </div>
