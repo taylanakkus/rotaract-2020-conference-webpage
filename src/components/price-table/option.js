@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 
 class Option extends Component {
+
     render() {
+        const { programDetail } = this.props;
         return (
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-4">
                 <div className="text-center card-priceTable">
                     <div className="priceTable-header">
-                        <h3>Ultimate</h3>
+                        <h3>{programDetail.title}</h3>
                         <p>Attend only first day</p>
                         <h1 className="priceTable-price"><span>$</span> 60.00</h1>
                     </div>
@@ -28,7 +30,7 @@ class Option extends Component {
                       </li>
                     </ul>
                     <div className="priceTable-footer">
-                        <a className="button" href="#">Buy Now</a>
+                        <a className="button" href="#">Kayıt</a>
                     </div>
                 </div>
             </div>

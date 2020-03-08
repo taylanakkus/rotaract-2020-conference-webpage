@@ -9,6 +9,7 @@ import Hotel from './components/hotel/hotel';
 import HomePage from './components/homepage';
 import Contact from './components/contact';
 import Participant from './components/participant';
+import Messages from './components/messages';
 
 
 
@@ -24,6 +25,7 @@ function App() {
         <Route path='/otel' component={Hotel} />
         <Route path='/katilim' component={Participant} />
         <Route path='/iletisim' component={Contact} />
+        <Route path='/mesajlar' component={Messages} />
       </Switch>
       <Footer />
 

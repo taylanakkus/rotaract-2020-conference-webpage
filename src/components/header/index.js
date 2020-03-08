@@ -27,6 +27,9 @@ class Header extends Component {
                                         <Link to='/otel' className='nav-link'>Otel</Link>
                                     </li>
                                     <li className="nav-item">
+                                        <Link to='/mesajlar' className='nav-link'>Mesajlar</Link>
+                                    </li>
+                                    <li className="nav-item">
                                         <Link smooth to={{ pathname: '/', hash: '#paketler' }} className='nav-link'>
                                             Paketler
                                         </Link>
