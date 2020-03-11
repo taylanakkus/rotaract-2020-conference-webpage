@@ -15,7 +15,7 @@ class DayItemCard extends Component {
                     <div className="col-md-9 align-self-center">
                         <div className="schedule-content">
                             <p className="schedule-date">9.00 AM - 10.30 AM</p>
-                            <a className="schedule-title" href="#">
+                            <a className="schedule-title">
                                 <h3>Previous Year achivement</h3>
                             </a>
                             <p>And wherein Beginning of you cattle fly had was deep wherein darkness behold male called evening gathering moving bring fifth days he lights dry cattle you open seas midst let and in wherein beginning </p>

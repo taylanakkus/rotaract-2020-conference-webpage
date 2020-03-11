@@ -3,6 +3,7 @@ import Banner from '../banner'
 import Carousel from './carousel'
 class Hotel extends Component {
     render() {
+
         return (
 
             <React.Fragment>

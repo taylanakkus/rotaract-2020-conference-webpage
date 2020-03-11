@@ -6,7 +6,7 @@ class Option extends Component {
         const { programDetail } = this.props;
         return (
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-4">
-                <div className="text-center card-priceTable">
+                <div className="text-center card-priceTable" style={{ background: "url(" + programDetail.backgroundImagePath + ")" }}>
                     <div className="priceTable-header">
                         <h3>{programDetail.title}</h3>
                         <p>{programDetail.description}</p>
@@ -20,7 +20,7 @@ class Option extends Component {
                     </div>
 
                     <div className="priceTable-footer">
-                        <a className="button" href="#">Kayıt</a>
+                        <a className="button">Kayıt</a>
                     </div>
                 </div>
             </div>

@@ -10,8 +10,9 @@ class Header extends Component {
 
 
                             <Link to='/' className='navbar-brand logo_h'>
-                                <img src="img/logo.png" alt="" />
+                                <img src="img/konferans-logo.png" alt="" width="180" />
                             </Link>
+
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                                 <span className="icon-bar" />
@@ -21,7 +22,7 @@ class Header extends Component {
                             <div className="collapse navbar-collapse offset" id="navbarSupportedContent">
                                 <ul className="nav navbar-nav menu_nav justify-content-end">
                                     <li className="nav-item active">
-                                        <Link to='/' className='nav-link'>Anasayfa</Link>
+                                        <Link to='/' className='nav-link'><span>A</span>nasayfa</Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to='/otel' className='nav-link'>Otel</Link>

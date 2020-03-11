@@ -1,3 +1,16 @@
+
+@font-face {
+    font-family: charlieFont;
+    src: url(../fonts/charlie-font.otf);
+  }
+
+@font-face {
+    font-family: willyWonka;
+    src: url(../fonts/willyWonka.ttf);
+  }
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Oswald:400,500,600,700");@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");body {
     color: #797979;
     font-family: "Roboto",sans-serif;
@@ -213,8 +226,8 @@ h4,.h4 {
     border: 0px;
     border-radius: 0px;
     width: 100%;
-    padding-top: 0;
-    padding-bottom: 0
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .header_area .navbar .nav-right {
@@ -223,8 +236,8 @@ h4,.h4 {
 
 .header_area .navbar .nav-right a {
     text-transform: uppercase;
-    font-family: "Oswald",sans-serif;
-    font-size: 15px;
+    font-family: "willyWonka",sans-serif;
+    font-size: 30px;
     font-weight: 500;
     color: #3b1d82
 }
@@ -234,10 +247,11 @@ h4,.h4 {
 }
 
 .header_area .navbar .nav .nav-item .nav-link {
-    font-family: "Roboto",sans-serif;
+    font-family: "willyWonka",sans-serif;
     color: #242424;
     text-transform: capitalize;
     font-weight: 400;
+    font-size: 20px;
     padding: 33px 0;
     display: inline-block
 }
@@ -3092,4 +3106,17 @@ h4,.h4 {
 
 .footer-text a,.footer-text i {
     color: #ea0763
+}
+
+.message-content{
+    padding: 30px;
+    padding-top: 30px;
+    font-size: 1.1rem;
+    font-family: 'Montserrat';
+}
+
+.message-content-title{
+    font-family: 'Montserrat';
+    font-size: 1.4rem;
+    font-weight: bold;
 }

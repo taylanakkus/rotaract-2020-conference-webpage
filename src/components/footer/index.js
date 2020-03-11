@@ -101,10 +101,10 @@ class Footer extends Component {
                                 {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                             </p>
                             <div className="col-lg-4 col-sm-12 footer-social text-center text-lg-right">
-                                <a href="#"><i className="fab fa-facebook-f" /></a>
-                                <a href="#"><i className="fab fa-twitter" /></a>
-                                <a href="#"><i className="fab fa-dribbble" /></a>
-                                <a href="#"><i className="fab fa-behance" /></a>
+                                <a><i className="fab fa-facebook-f" /></a>
+                                <a><i className="fab fa-twitter" /></a>
+                                <a><i className="fab fa-dribbble" /></a>
+                                <a><i className="fab fa-behance" /></a>
                             </div>
                         </div>
                     </div>

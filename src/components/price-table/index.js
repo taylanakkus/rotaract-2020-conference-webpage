@@ -14,7 +14,8 @@ class PriceTable extends Component {
             'personCount': '1',
             'earlyPrice': '520',
             'normalPrice': '560',
-            'description': ' 1 gece - 1 kişi'
+            'description': ' 1 gece - 1 kişi',
+            'backgroundImagePath': '/img/price-table/veruca-paket.jpg'
         },
         {
             'title': 'Violet',
@@ -22,7 +23,8 @@ class PriceTable extends Component {
             'personCount': '2',
             'earlyPrice': '355',
             'normalPrice': '395',
-            'description': ' 1 gece - 2 kişi'
+            'description': ' 1 gece - 2 kişi',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Charlie',
@@ -30,7 +32,8 @@ class PriceTable extends Component {
             'personCount': '3',
             'earlyPrice': '330',
             'normalPrice': '370',
-            'description': ' 1 gece - 3 kişi'
+            'description': ' 1 gece - 3 kişi',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Willy Wonka',
@@ -38,7 +41,8 @@ class PriceTable extends Component {
             'personCount': '1',
             'earlyPrice': '960',
             'normalPrice': '1000',
-            'description': ' 2 gece - 1 kişi'
+            'description': ' 2 gece - 1 kişi',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Mike TV',
@@ -46,7 +50,8 @@ class PriceTable extends Component {
             'personCount': '2',
             'earlyPrice': '630',
             'normalPrice': '670',
-            'description': ' 2 gece - 2 kişi'
+            'description': ' 2 gece - 2 kişi',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Agustus',
@@ -54,25 +59,29 @@ class PriceTable extends Component {
             'personCount': '3',
             'earlyPrice': '580',
             'normalPrice': '620',
-            'description': ' 2 gece - 3 kişi'
+            'description': ' 2 gece - 3 kişi',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Grandpa Joe',
             'description': ' Günübirlik Toplantı',
             'earlyPrice': '',
             'normalPrice': '170',
+            'backgroundImagePath': ''
         },
         {
             'title': 'UmpaLumpa',
             'description': ' Günübirlik - Gala ',
             'earlyPrice': '',
             'normalPrice': '370',
+            'backgroundImagePath': ''
         },
         {
             'title': 'Golden Ticket',
             'description': ' Gala',
             'earlyPrice': '',
             'normalPrice': '',
+            'backgroundImagePath': ''
         },
         ]
         return (
