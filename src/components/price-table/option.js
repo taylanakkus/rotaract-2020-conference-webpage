@@ -1,15 +1,19 @@
 import React, { Component } from 'react'
-
+import './pricetable.css'
 class Option extends Component {
 
     render() {
         const { programDetail } = this.props;
         return (
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-4">
-                <div className="text-center card-priceTable" style={{ background: "url(" + programDetail.backgroundImagePath + ")" }}>
+                <div className="text-center card-priceTable">
                     <div className="priceTable-header">
                         <h3>{programDetail.title}</h3>
-                        <p>{programDetail.description}</p>
+                        <div className='priceTable-image'>
+                            <img src={programDetail.backgroundImagePath} width="320"></img>
+                        </div>
+
+                        <p style={{ fontSize: '1.5rem', marginTop: '10px' }}>{programDetail.description}</p>
 
                         {programDetail.earlyPrice ? (
                             <h1 className="priceTable-price" style={{ fontSize: '1.5em' }}>Erken - {programDetail.earlyPrice} ₺</h1>
