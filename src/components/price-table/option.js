@@ -8,7 +8,7 @@ class Option extends Component {
             <div className="col-lg-4 col-md-6 mb-4 mb-lg-4">
                 <div className="text-center card-priceTable">
                     <div className="priceTable-header">
-                        <h3>{programDetail.title}</h3>
+                        <h3 style={{ backgroundImage: 'url("/img/firca.png")', backgroundPositionX: -10, backgroundPositionY: -25, color: "white", fontFamily: 'willyWonka' }}>{programDetail.title}</h3>
                         <div className='priceTable-image'>
                             <img src={programDetail.backgroundImagePath} width="320"></img>
                         </div>

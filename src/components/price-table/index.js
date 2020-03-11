@@ -90,7 +90,7 @@ class PriceTable extends Component {
                     <div className="section-intro text-center pb-98px">
                         <p className="section-intro__title">Join the event</p>
                         <h2 className="primary-text">Choose Your Ticket</h2>
-                        <img src="img/home/section-style.png" alt="" />
+                        <img src="img/firca.png" alt="" />
 
                     </div>
                     <div className="row" style={{ fontWeight: '500', fontSize: '15px', textAlign: 'left', marginBottom: '40px' }}>

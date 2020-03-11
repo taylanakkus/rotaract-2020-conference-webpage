@@ -80,7 +80,7 @@ h4,.h4 {
 }
 
 .bg-gray {
-    background: #f7f7f7
+    background: #a271718c
 }
 
 .section-padding--small {
@@ -176,12 +176,14 @@ h4,.h4 {
 .header_area {
     width: 100%;
     z-index: 99;
-    transition: background 0.4s, all 0.3s linear
+    transition: background 0.4s, all 0.3s linear;
+    background-color: #462311;
 }
 
 .header_area .navbar-right {
     min-width: 200px;
-    text-align: right
+    text-align: right;
+
 }
 
 @media (max-width: 991px) {
@@ -222,7 +224,9 @@ h4,.h4 {
 }
 
 .header_area .navbar {
-    background: transparent;
+    /* background: transparent; */
+    background-color: #462311;
+
     border: 0px;
     border-radius: 0px;
     width: 100%;
@@ -239,7 +243,7 @@ h4,.h4 {
     font-family: "willyWonka",sans-serif;
     font-size: 30px;
     font-weight: 500;
-    color: #3b1d82
+    color: #f6e16c;
 }
 
 .header_area .navbar .nav .nav-item {
@@ -248,7 +252,7 @@ h4,.h4 {
 
 .header_area .navbar .nav .nav-item .nav-link {
     font-family: "willyWonka",sans-serif;
-    color: #242424;
+    color: #ea0763;
     text-transform: capitalize;
     font-weight: 400;
     font-size: 20px;
@@ -261,7 +265,7 @@ h4,.h4 {
 }
 
 .header_area .navbar .nav .nav-item:hover .nav-link,.header_area .navbar .nav .nav-item.active .nav-link {
-    color: #ea0763;
+    color: #f6e16c;
     opacity: 1
 }
 
@@ -494,7 +498,7 @@ h4,.h4 {
     }
 
     .header_area .navbar {
-        background: #fff
+    background-color: #462311; 
     }
 
     .header_area .navbar .nav-item.active .nav-link {
@@ -1557,7 +1561,7 @@ h4,.h4 {
 }
 
 .card-priceTable:hover {
-    background: #3b1d82
+    background: #ea0763
 }
 
 .card-priceTable:hover .priceTable-header {
@@ -1577,8 +1581,8 @@ h4,.h4 {
 }
 
 .card-priceTable:hover .button {
-    background: #ea0763;
-    border-color: #ea0763;
+    background: #f6e16c;
+    border-color: #f6e16c;
     color: #fff
 }
 

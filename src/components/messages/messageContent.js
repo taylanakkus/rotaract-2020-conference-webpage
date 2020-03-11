@@ -14,7 +14,9 @@ export default class MessageContent extends Component {
                     <div className="col-lg-8">
                         {messageContent.messageText}
                         <span className="message-content-title">{messageContent.title}</span>
+                        <img src="img/firca.png" alt="" style={{ marginTop: '20px' }} />
                     </div>
+
                 </div>
 
 
